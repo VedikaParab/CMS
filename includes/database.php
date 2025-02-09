@@ -3,11 +3,11 @@
 // Retrieve environment variables.  Use consistent names (either Railway's
 // defaults or your own, but be consistent).  I'm using Railway's defaults here.
 
-$host = getenv('MYSQLHOST');
-$port = getenv('MYSQLPORT');  // Important: Include the port!
-$username = getenv('MYSQLUSER');
-$password = getenv('MYSQLPASSWORD');
-$dbname = getenv('MYSQLDATABASE');
+$host = 'mysql.railway.internal';
+$port = '3306';  // Important: Include the port!
+$username = 'root';
+$password = 'qjbbiWqnhQKSJRLkNfqGHklDUIoOgvAO';
+$dbname = 'railway';
 
 
 // Create the database connection.  The port is the 5th argument.
