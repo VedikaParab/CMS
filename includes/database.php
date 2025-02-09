@@ -3,10 +3,10 @@
 // Retrieve environment variables.  Use consistent names (either Railway's
 // defaults or your own, but be consistent).  I'm using Railway's defaults here.
 
-$host = 'mysql.railway.internal';
+$host = 'mysql-n3vw.railway.internal';
 $port = '3306';  // Important: Include the port!
 $username = 'root';
-$password = 'qjbbiWqnhQKSJRLkNfqGHklDUIoOgvAO';
+$password = 'ruCauGaiXTUxKhEduGlxtdJvZDYyRmLW';
 $dbname = 'railway';
 
 
